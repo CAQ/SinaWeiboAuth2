@@ -2,6 +2,11 @@ Sina Weibo helper for OAuth 2.0 -- Automatically renews the token using MyAuth2.
 
 Weibo API is from http://code.google.com/p/sinaweibopy/
 
+You need to first create a file <app id>.token, such as "12345.token", a one-line file, containing:
+<app id> \t <app secret> \t <auth call back url> \t <authed token> \t <expired time> \t <user name> \t <password>
+
+For initialization, the <authed token> can be anystring. And set <expired time> to -1.
+
 Example:
 
 ------
