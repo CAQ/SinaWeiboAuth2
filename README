@@ -1,7 +1,16 @@
-Sina weibo public time crawler, using API.
+Sina Weibo helper for OAuth 2.0 -- Automatically renews the token using MyAuth2.
 
-OAuth 2.0. Automatically renews the token using MyAuth2.
+Weibo API is from http://code.google.com/p/sinaweibopy/
 
-The Weibo API is from http://code.google.com/p/sinaweibopy/
+Example:
 
-Author: CAQ
+------
+from myauth2 import MyAuth2
+
+mauth = MyAuth2('your user id')
+
+# get public timeline
+response = ma2.client.get.statuses__public_timeline(count=20)
+------
+
+Author: CAQ9 @ weibo.com
