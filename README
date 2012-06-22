@@ -1,0 +1,7 @@
+Sina weibo public time crawler, using API.
+
+OAuth 2.0. Automatically renews the token using MyAuth2.
+
+The Weibo API is from http://code.google.com/p/sinaweibopy/
+
+Author: CAQ
