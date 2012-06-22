@@ -7,7 +7,7 @@ Example:
 ------
 from myauth2 import MyAuth2
 
-mauth = MyAuth2('your user id')
+mauth = MyAuth2('your app id')
 
 # get public timeline
 response = ma2.client.get.statuses__public_timeline(count=20)
